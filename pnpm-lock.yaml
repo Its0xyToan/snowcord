@@ -1,0 +1,139 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@discordeno/bot':
+        specifier: 22.0.1-next.f29ab92
+        version: 22.0.1-next.f29ab92
+      chalk:
+        specifier: ^5.6.2
+        version: 5.6.2
+      dd-cache-proxy:
+        specifier: ^2.7.0
+        version: 2.7.0(@discordeno/bot@22.0.1-next.f29ab92)
+      discord-api-types:
+        specifier: ^0.38.40
+        version: 0.38.40
+    devDependencies:
+      '@types/node':
+        specifier: ^25.3.0
+        version: 25.3.0
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
+
+packages:
+
+  '@discordeno/bot@22.0.1-next.f29ab92':
+    resolution: {integrity: sha512-Mm7YsIvvmwhNLgOQYntAXYGB45MLm6KL1523wbN6v0/9Xi353dPvSNgspA8wEYxlQDyuY5bUuyIf4cjdoeY2MA==}
+
+  '@discordeno/gateway@22.0.1-next.f29ab92':
+    resolution: {integrity: sha512-rvANepTQxrvb1lKftrywjqV3RIfIT5NCRe1k6c1Jai4+q+r5fz1cGreQBZZlOP6qXyxKaHZW6AorlF4OoBnpKw==}
+
+  '@discordeno/rest@22.0.1-next.f29ab92':
+    resolution: {integrity: sha512-xHT9zMfFcA2UbALYYBi84c7UFymBQ//6Z9/RhcrPIZTcD2Vigeml2NwLMUSSX1ppOCftQ42Ad/BxFQJt23V5pg==}
+
+  '@discordeno/types@22.0.1-next.f29ab92':
+    resolution: {integrity: sha512-rcw5rreaFTKYpeFgHWt/smNhLQCqjNPXvI6aQF+ZQLgmySgTj6OHYYtivkqjP9U1tzs6mPxpDsid940c5okprA==}
+
+  '@discordeno/utils@22.0.1-next.f29ab92':
+    resolution: {integrity: sha512-m/hl3CcgCb3iNy3q4e898SabgrGseIY8rHuRSQ4Poo1EeKLmKsOHzgrzCixYFrlVfXYFZbtmd9fL1mePREqiVg==}
+
+  '@types/node@25.3.0':
+    resolution: {integrity: sha512-4K3bqJpXpqfg2XKGK9bpDTc6xO/xoUP/RBWS7AtRMug6zZFaRekiLzjVtAoZMquxoAbzBvy5nxQ7veS5eYzf8A==}
+
+  chalk@5.6.2:
+    resolution: {integrity: sha512-7NzBL0rN6fMUW+f7A6Io4h40qQlG+xGmtMxfbnH/K7TAtt8JQWVQK+6g0UXKMeVJoyV5EkkNsErQ8pVD3bLHbA==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+
+  dd-cache-proxy@2.7.0:
+    resolution: {integrity: sha512-wS+rm8QhD/Ak2FfCtr8FzFkz26tapogqhaux+AjHHpleMXEBZznzAzbZCLKBlAf0i3MkaKb8tMyvDqklNIlt4A==}
+    peerDependencies:
+      '@discordeno/bot': ^22.0.1-next.5867d11
+
+  discord-api-types@0.38.40:
+    resolution: {integrity: sha512-P/His8cotqZgQqrt+hzrocp9L8RhQQz1GkrCnC9TMJ8Uw2q0tg8YyqJyGULxhXn/8kxHETN4IppmOv+P2m82lQ==}
+
+  fzstd@0.1.1:
+    resolution: {integrity: sha512-dkuVSOKKwh3eas5VkJy1AW1vFpet8TA/fGmVA5krThl8YcOVE/8ZIoEA1+U1vEn5ckxxhLirSdY837azmbaNHA==}
+
+  typescript@5.9.3:
+    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+  undici-types@7.18.2:
+    resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
+
+  ws@8.19.0:
+    resolution: {integrity: sha512-blAT2mjOEIi0ZzruJfIhb3nps74PRWTCz1IjglWEEpQl5XS/UNama6u2/rjFkDDouqr4L67ry+1aGIALViWjDg==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+
+snapshots:
+
+  '@discordeno/bot@22.0.1-next.f29ab92':
+    dependencies:
+      '@discordeno/gateway': 22.0.1-next.f29ab92
+      '@discordeno/rest': 22.0.1-next.f29ab92
+      '@discordeno/types': 22.0.1-next.f29ab92
+      '@discordeno/utils': 22.0.1-next.f29ab92
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+
+  '@discordeno/gateway@22.0.1-next.f29ab92':
+    dependencies:
+      '@discordeno/types': 22.0.1-next.f29ab92
+      '@discordeno/utils': 22.0.1-next.f29ab92
+      ws: 8.19.0
+    optionalDependencies:
+      fzstd: 0.1.1
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+
+  '@discordeno/rest@22.0.1-next.f29ab92':
+    dependencies:
+      '@discordeno/types': 22.0.1-next.f29ab92
+      '@discordeno/utils': 22.0.1-next.f29ab92
+
+  '@discordeno/types@22.0.1-next.f29ab92': {}
+
+  '@discordeno/utils@22.0.1-next.f29ab92':
+    dependencies:
+      '@discordeno/types': 22.0.1-next.f29ab92
+
+  '@types/node@25.3.0':
+    dependencies:
+      undici-types: 7.18.2
+
+  chalk@5.6.2: {}
+
+  dd-cache-proxy@2.7.0(@discordeno/bot@22.0.1-next.f29ab92):
+    dependencies:
+      '@discordeno/bot': 22.0.1-next.f29ab92
+
+  discord-api-types@0.38.40: {}
+
+  fzstd@0.1.1:
+    optional: true
+
+  typescript@5.9.3: {}
+
+  undici-types@7.18.2: {}
+
+  ws@8.19.0: {}

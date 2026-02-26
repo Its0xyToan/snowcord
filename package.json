@@ -1,0 +1,27 @@
+{
+  "name": "snowcord",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": "dist/cli.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "test": "ts-node test/snowcord.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordeno/bot": "22.0.1-next.f29ab92",
+    "chalk": "^5.6.2",
+    "dd-cache-proxy": "^2.7.0",
+    "discord-api-types": "^0.38.40"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "typescript": "^5.9.3"
+  }
+}
